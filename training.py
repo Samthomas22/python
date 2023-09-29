@@ -549,7 +549,7 @@ obj.set_private_var(30)  # Modify
 print('Value after modification:',obj.get_private_var())  # Access
 
 '''
-
+'''
 def div(func):
     def inner(a,b):
         print('Enter values are', a, 'and', b)
@@ -563,4 +563,4 @@ def div(func):
 @div
 def divide(a,b):
     return a/b
-print(divide(5,2))
+print(divide(5,2))'''
